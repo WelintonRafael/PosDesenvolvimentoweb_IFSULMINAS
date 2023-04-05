@@ -25,10 +25,12 @@ header:#titulo{
     border-botton:1px,dashed rgba(0.0.0.0.5);
 
 }
-header:#titulo.h1{
+header#titulo h1{
 
     color:gray;
-    text-shadow:13px 4px 5px black;
+    text-shadow:13px 4px 5px  rgba(0,0,0,0.5);
+    text-indent:160px;
+    word-spacing:17px;
     
 
 }
