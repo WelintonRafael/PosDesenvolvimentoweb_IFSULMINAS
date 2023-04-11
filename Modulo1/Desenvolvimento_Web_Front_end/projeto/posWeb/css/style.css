@@ -10,27 +10,165 @@ body{
 div#interface{
 
 background-color:rgba(232,230,231,0.9);
-width :1100px;
+width:1100px;
 margin:0px auto;
 padding:10px;
 box-shadow:10px 5px 5px rgba(0,0,0,0.5);
 
 
 }
+/* Inicio do style do header*/
+header#titulo{
+   
+    font-family:'Joti One', cursive;
+    font-size:15pt;
+    border-bottom: 1px dashed rgba(0,0,0,0.5);
+    position:relative;
 
-header:#titulo{
-
-    font-family: 'Joti One', cursive;
-    font-size:15px;
-    border-botton:1px,dashed rgba(0.0.0.0.5);
-
+    
+ 
 }
 header#titulo h1{
 
     color:gray;
-    text-shadow:13px 4px 5px  rgba(0,0,0,0.5);
+    text-shadow:3px 4px 5px  rgba(0,0,0,0.5);
     text-indent:160px;
-    word-spacing:17px;
+    word-spacing:7px;
+
+}
+header#titulo img#logo{
+    top:20px;
+    left:50px;
+    position:absolute;
+
+}
+header#titulo nav#menu{
+
+    display:block;
+
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+    font-size:12px;
+    
+}
+header#titulo nav#menu h1{
+
+    display:none;
+
+}
+
+header#titulo nav#menu ol{
+list-style:none;
+text-transform:uppercase;
+top:70px;
+left:700px;
+position:absolute;
+
+
+}
+header#titulo nav#menu li{
+display:inline-block;
+background-color:#ccc9ca;
+padding:10px;
+margin:8px;
+transition:background-color 2s;
+
+}
+header#titulo nav#menu li:hover{
+
+background-color:gray;
+
+}
+
+header#titulo nav#menu a{
+
+    color:black;
+    text-decoration:none;
+
+}
+header#titulo nav#menu a:hover{
+    color:white;
+    text-decoration:underline;
+
+}
+
+/* Fim do style do header*/
+
+/*Inicia Style da sessão esquerda*/
+
+
+/*=============================================
+Inicia Style da sessão esquerda
+=            Section comment block            =
+=============================================*/
+
+Section#esquerda{
+
+display:block;
+width:350px;
+float:left;
+padding-top:10px;
+padding-left:10px;
+border-right:1px dashed rgba(0,0,0,0.3);
+
+
+}
+section#esquerda article.noticia{
+    font:10pt Arial, sans-serif;
+    text-align:justify;
+
+
+}
+section#esquerda article.noticia h2.titulo{
+font:inherit;
+background-color:#ccc9ca;
+padding: 10px;
+font-weight:bold ;
+font-style:italic;
+border-radius:10px;
+}
+section#esquerda article.noticia h2.descricao{
+    font:8pt Arial,sans-serif;
+  line-height:15px;
+  padding:10px;
+  
+    }
+
+/*=====  End of Section comment block  ======*/
+
+
+/*=============================================
+=            Section comment block 
+Inicia a sessão meio           =
+=============================================*/
+section#meio{
+
+    display:block;
+    width:450px;
+    float:left;
+    padding-top:10px;
+    padding-left:10px;
+    border-right:1px dashed rgba(0,0,0,0.3);
     
 
 }
+
+
+/*=====  End of Section comment block  ======*/
+/*=====  Inicia o Aside  ======*/
+aside#direita{
+    display:block;
+    width:250px;
+    float:left;
+    padding-top:10px;
+    padding-left:10px;
+    border-right:1px dashed rgba(0,0,0,0.3);
+    height:700px;
+    
+
+}
+
+/*=====  End of Aside comment block  ======*/
+
+
+
