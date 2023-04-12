@@ -169,6 +169,195 @@ aside#direita{
 }
 
 /*=====  End of Aside comment block  ======*/
+/* Iniciando a formatação da section meio.*/ 
+section#meio{
+    display:block;
+    width:450px;
+    float:left;
+    padding-top:10px;
+    padding-left:10px;
+    border-right:1px dashed rgba(0,0,0,0.3);
+    height:700px;
+    overflow-y:hide;
+
+}
+section#meio div.zoom img{
+
+border-radius:15px;
+width:250px;
+height:150px;
+border:1px  solid black;
+left:100px;
+position:relative;
+filter:grayscale(100%);
+transition:all .6s cubic-bezier(1,1,1,1);
+
+}
+section#meio div.zoom img:hover{
+    filter:sepia(80%);
+    transform:scale(1.5);
+    z-index:1;
+
+}
+
+
+/*Final da Formatação da section meio*/
+
+/*Incia Formatação do Aside*/
+
+aside#direita{
+
+    display:block;
+    width:250px;
+    padding-top:10px;
+    padding-left:10px;
+    float:left;
+    height:700px;
+    overflow-y:scroll;
+
+}
+aside#direita div.noticia2{
+
+    border:1px dashed rgba(0,0,0,0.1);
+    background-color: #e8e0e0;
+    margin-top:8px;
+
+}
+
+aside#direita div.noticia2 img{
+    width:50px;
+    float:right;
+    padding:15px 5px 1px 2px;
+
+}
+
+
+aside#direita div.noticia2 p{
+    font:10pt Arial, sans-serif;
+    text-align:justify;
+    padding:10px;
+}
+aside#direita div.noticia3{
+
+    border:1px dashed rgba(0,0,0,0.1);
+    background-color: #d2cbcb;
+    margin-top:8px;
+
+}
+
+aside#direita div.noticia3 img{
+    width:50px;
+    float:height;
+   padding:15px 5px 1px 2px;
+
+}
+
+
+aside#direita div.noticia3 p{
+    font:10pt Arial, sans-serif;
+    text-align:justify;
+    padding:10px;
+}
+
+/*Finaliza  a formatação do aside*/
+footer#rodape {
+
+clear:both;
+border-top:1px dashed rgba(0,0,0,0.3);
+text-align:center;
+height:300px;
+
+
+
+
+
+}
+
+footer#rodape ol.itemLink{
+float:left;
+margin:5px;
+width:100%;
+padding:5px;
+list-style-type:none;
+
+
+}
+
+footer#rodape ol.itemLink li{
+
+  padding:5px;
+  display:inline;
+  float:left;
+  width:45%;
+
+
+}
+
+footer#rodape ol.itemLink li a:link{
+
+  font:12pt Arial, sans-serif;
+  text-decoration:none;
+  color:black;
+  font-style:italic;
+
+
+    
+  
+  }
+
+  footer#rodape ol.itemLink li a:hover
+  {
+
+    font-weight:bold;
+    text-decoration:underline;   
+    
+    }
+
+    footer#rodape nav.redes{
+
+        display:block;
+       
+    
+    }
+    footer#rodape nav.redes ol{
+        list-style-type:none;
+        position:absolute;
+        top:1100px;
+        left:970px;
+       
+
+
+    }
+    footer#rodape nav.redes li{
+        display:inline-block;
+        padding:5px;
+        margin:2px;
+
+        
+    }
+
+    footer#rodape nav.redes img{
+       weight:50px;
+       height:50px;
+       transition: filter .5s;
+
+        
+    }
+    footer#rodape nav.redes li img:hover{
+        filter:contrast(20%) brightness(150%);
+
+    }
+    footer#rodape div.rodapeFinal{
+       position:absolute;
+       top:1100px;
+
+    }
+
+
+
+
+   
+
 
 
 
